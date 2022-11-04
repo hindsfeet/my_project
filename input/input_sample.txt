@@ -1,0 +1,3 @@
+Model|File|PreprocessorParams|ModelParams|GraphParams
+UCB|Ads_CTR_Optimisation.csv|||{"xlabel":"Ads"}
+ThompsonSampling|Ads_CTR_Optimisation.csv|||{"xlabel":"Ads"}

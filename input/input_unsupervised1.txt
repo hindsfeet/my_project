@@ -1,0 +1,2 @@
+Model|File|PreprocessorParams|ModelParams|GraphParams
+RBM|{"filename":"movies","train_file":"ml-100k/u1.base","test_file":"ml-100k/u1.test"}|{"delimiter":"\t","xlabel":["user","movie","rating","date"]}|{"hidden":100,"batch_size":100,"epoch":10}|

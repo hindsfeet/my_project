@@ -1,0 +1,3 @@
+Model|File|PreprocessorParams|ModelParams|GraphParams
+GaussianNB|Restaurant_Reviews.tsv|{"test_size": 0.2,"random_state":0,"stop_words":"english","text":{"method":"CountVectorizer","params":{"max_features":1500}}}||
+RandomForestClassifier|Restaurant_Reviews.tsv|{"test_size": 0.2,"random_state":0,"stop_words":"english","text":{"method":"CountVectorizer","params":{"max_features":1500}}}||

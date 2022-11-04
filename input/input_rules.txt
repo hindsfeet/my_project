@@ -1,0 +1,3 @@
+Model|File|PreprocessorParams|ModelParams|GraphParams
+apriori|Market_Basket_Optimisation.csv||{"min_support":0.003,"min_confidence":0.2,"min_lift":3,"min_length":2}|
+eclat|Market_Basket_Optimisation.csv|||
