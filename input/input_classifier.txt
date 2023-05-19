@@ -1,0 +1,8 @@
+Model|File|PreprocessorParams|ModelParams|GraphParams
+LogisticRegression|Social_Network_Ads.csv|{"test_size": 0.25,"random_state":0,"scaler":{"method":"StandardScaler","params":{}}}|{"random_state":0}|{"smooth":[10,1000]}
+KNeighborsClassifier|Social_Network_Ads.csv|{"test_size": 0.25,"random_state":0,"scaler":{"method":"StandardScaler","params":{}}}|{"n_neighbors":5,"metric":"minkowski","p":2}|{"smooth":[10,1000]}
+SVC|Social_Network_Ads.csv|{"test_size": 0.25,"random_state":0,"scaler":{"method":"StandardScaler","params":{}}}|{"kernel":"linear","random_state":0}|{"smooth":[10,1000]}
+SVC|Social_Network_Ads.csv|{"test_size": 0.25,"random_state":0,"scaler":{"method":"StandardScaler","params":{}}}|{"kernel":"rbf","random_state":0}|{"smooth":[10,1000]}
+GaussianNB|Social_Network_Ads.csv|{"test_size": 0.25,"random_state":0,"scaler":{"method":"StandardScaler","params":{}}}|{}|{"smooth":[10,1000]}
+DecisionTreeClassifier|Social_Network_Ads.csv|{"test_size": 0.25,"random_state":0,"scaler":{"method":"StandardScaler","params":{}}}|{"criterion":"entropy","random_state":0}|{"smooth":[10,1000]}
+RandomForestClassifier|Social_Network_Ads.csv|{"test_size": 0.25,"random_state":0,"scaler":{"method":"StandardScaler","params":{}}}|{"criterion":"entropy","n_estimators":10,"random_state":0}|{"smooth":[10,1000]}

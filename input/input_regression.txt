@@ -1,0 +1,8 @@
+Model|File|PreprocessorParams|ModelParams|GraphParams
+LinearRegression|Salary_Data.csv|{"test_size":0.333,"random_state":0}||{"title":"Salary vs Experience","xlabel":"Years of Experience","ylabel":"Salary"}
+LinearRegression|Salary_Data.csv|{"test_size":0.333,"random_state":0}||
+PolynomialFeatures|Position_Salaries.csv|{"x":"Level"}|{"degree":3}|{"smooth":0.1}
+SVR|Position_Salaries.csv|{"x":"Level","scaler":{"method":"StandardScaler","params":{}}}|{"kernel":["rbf"]}|
+SVR|Position_Salaries.csv|{"x":"Level","predict_test":5.5,"scaler":{"method":"StandardScaler","params":{}}}|{"kernel":["rbf"]}|
+DecisionTreeRegressor|Position_Salaries.csv|{"x":"Level"}|{"random_state":0}|
+RandomForestRegressor|Position_Salaries.csv|{"x":"Level"}|{"n_estimators":10,"random_state":0}|

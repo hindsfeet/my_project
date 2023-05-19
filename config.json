@@ -1,0 +1,23 @@
+{
+  "folder": [
+    {
+      "base": ".",
+      "input": "input",
+      "output": "output",
+      "log": "log"
+    }
+  ],
+  "detail":[
+    {
+      "test_size": 0,
+      "save": true,
+      "file_stats": "stats",
+      "graph": true,
+      "max_cardinality": 20,
+      "regression_scores": ["r2_score"],
+      "classification_scores": ["accuracy_score","precision_score","recall_score","f1_score","matthews_corrcoef"],
+      "cluster_scores": ["calinski_harabasz_score","davies_bouldin_score","silhouette_score","completeness_score","homogeneity_score","v_measure_score"],
+      "neural_scores": ["loss_score","accuracy_score"],
+    }
+  ]
+}
